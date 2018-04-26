@@ -5,3 +5,27 @@ The dataset is doubly parallel: for each language, its words are stored parallel
 
 By far the largest dataset of its kind, with 100 languages and up to 10,000 words per language, it is useful for evaluating image-based translation methods.
 
+## Getting Started
+
+_Add: Short description of how to use a sample of the dataset_
+
+See the [documentation page](docs.html)
+
+## Citation
+
+If you use this dataset for your research, please cite:
+
+Learning Translations via Images: A Large Multilingual Dataset and Comprehensive Study. <br>
+John Hewitt*, Daphne Ippolito*, Brendan Callahan, Reno Kriz, Derry Tanti Wijaya and Chris Callison-Burch. <br>
+ACL 2018. <br>
+
+```
+@InProceedings{hewitt-et-al:2018:Long,
+  author    = {Hewitt, John  and  Ippolito, Daphne  and  Callahan, Brendan and Kriz, Reno and Wijaya, Derry Tanti and Callison-Burch, Chris},
+  title     = {Learning Translations via Images: A Large Multilingual Dataset and Comprehensive Study.},
+  booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  month     = {July},
+  year      = {2018},
+  address   = {Melbourne, Australia},
+  publisher = {Association for Computational Linguistics},
+```
