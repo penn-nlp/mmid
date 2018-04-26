@@ -1,37 +1,7 @@
-## Welcome to GitHub Pages
+## Images for Translation Dataset
 
-You can use the [editor on GitHub](https://github.com/john-hewitt/imgt/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Images for Translation (name pending) is a large-scale, massively multilingual dataset of images paired with the words they represent.
+The dataset is doubly parallel: for each language, its words are stored parallel to images that represent the word, _and_ parallel to the word's translation into English (and corresponding images.)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+By far the largest dataset of its kind, with 100 languages and up to 10,000 words per language, it is useful for evaluating image-based translation methods.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/john-hewitt/imgt/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
