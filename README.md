@@ -9,7 +9,7 @@ By far the largest dataset of its kind, with 100 languages and up to 10,000 word
 
 _Add: Short description of how to use a sample of the dataset_
 
-See the [documentation page](docs.html)
+See the [documentation page](doc.html)
 
 ## Citation
 
