@@ -13,6 +13,8 @@ This is about **26TB**.
 
 ## **<span style="color:#B08519">[med]</span>** Documentation
 
+Download the dataset [here](downloads.html).
+
 ### Running a translation evaluation
 
 (temporary example)
