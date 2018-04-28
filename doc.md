@@ -54,6 +54,7 @@ However, the identification of English words throug subfolder and `word_ID` is u
 #### `source/`
 The `source/` folder holds the feature files for images of source language words.
 The `source/` folder contains `word_ID` files, each of which is a matrix that is of dimension `(k,4096)` where `k` is the number of images that represent the word.
+In the medium view, these images have already been filtered to those whose corresponding website had text in the `source` language.
 
 #### `dictionary/`
 The `dictionary/` folder holds the gold-standard translations between `source` language words and English words in `dict.<lang_ID>`. It also contains a mapping from language name to language ID, used in our software, at `langcodes.csv`.
