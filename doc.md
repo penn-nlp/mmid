@@ -14,11 +14,52 @@ This is about **26TB**.
 ## **<span style="color:#B08519">[med]</span>** Documentation
 
 Download the dataset [here](downloads.html).
+For the example translation experiment below, we assume that you've downloaded a medium language pack.
 
-### Running a translation evaluation
+### Dataset structure
 
-(temporary example)
+In this section, we'll discuss how to work with the medium view image feature downloads.
+Each language download has the following file structure:
 
+```
+    /
+        english/
+           English-01/
+               <word_ID>/
+                 1.jpg.pkl
+                 2.jpg.pkl
+                 ...
+                 100.jpg.pkl
+               <word_ID>/
+               ...
+           English-02/
+               ...
+           ...
+           English-27/
+        source/
+              <word_ID>.combined.pkl
+              ...
+        dictionary/
+           dict.<lang_ID>
+           langcodes.csv         
+```
+
+#### `english/`
+The `english/` folder holds the feature files for images of English words.
+The `english/` folder contains 27 subfolders, under each of which are `word_ID` folders.
+Each `word_ID` folder contains all the image feature files for a single English word. Each feature file is a `.pkl` containing a vector that is of dimension `(1,4096)`.
+You'll notice that not all English words are present for each language; by default, only the English words that are translations of some word in the downloaded language are present in the `english/` folder.
+However, the identification of English words throug subfolder and `word_ID` is unique across all potentially downloadable languages, so you can combine your English directories across languages if desired.
+
+#### `source/`
+The `source/` folder holds the feature files for images of source language words.
+The `source/` folder contains `word_ID` files, each of which is a matrix that is of dimension `(k,4096)` where `k` is the number of images that represent the word.
+
+#### `dictionary/`
+The `dictionary/` folder holds the gold-standard translations between `source` language words and English words in `dict.<lang_ID>`. It also contains a mapping from language name to language ID, used in our software, at `langcodes.csv`.
+
+
+### Running a translation experiment
 ```
 python code/evaluate_package_cnn_combined.py 
      -f /scratch-shared/users/bcal/alexnet-combined-2/Gujarati/  \
