@@ -11,6 +11,10 @@ _Add: Short description of how to use a sample of the dataset_
 
 See the [documentation page](doc.html)
 
+## Downloads
+
+Check out the [downloads](downloads.html) page for options on how to access the dataset. 
+
 ## Citation
 
 If you use this dataset for your research, please cite:
