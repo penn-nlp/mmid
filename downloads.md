@@ -16,24 +16,25 @@ We're working on it!
 
 | Language      |  Dataset      |  Metadata  |          | Language      |  Dataset      |  Metadata  |      
 | ------------- | ------------- | ---------- | ---- | ------------- | ------------- | ---------- |        
-| Romanian | [download](#)  | [download](#) |        | Albanian | [download](#)  | [download](#) |          
-| Serbian | [download](#)  | [download](#) |         | Arabic | [download](#)  | [download](#) |        
-| Slovak | [download](#)  | [download](#) |          | Azerbaijani | [download](#)  | [download](#) |
-| Somali | [download](#)  | [download](#) |          | Bengali | [download](#)  | [download](#) |       
-| Spanish | [download](#)  | [download](#) |         | Bosnian | [download](#)  | [download](#) |       
-| Swedish | [download](#)  | [download](#) |         | Bulgarian | [download](#)  | [download](#) |     
-| Tamil | [download](#)  | [download](#) |           | Cebuano | [download](#)  | [download](#) |       
-| Telugu | [download](#)  | [download](#) |          | chinese | [download](#)  | [download](#) |       
-| Thai | [download](#)  | [download](#) |            | Dutch | [download](#)  | [download](#) |         
-| tmp | [download](#)  | [download](#) |             | Filipino | [download](#)  | [download](#) |
-| Turkish | [download](#)  | [download](#) |         | French | [download](#)  | [download](#) |        
-| Ukrainian | [download](#)  | [download](#) |       | German | [download](#)  | [download](#) |            
-| Urdu | [download](#)  | [download](#) |            | Gujarati | [download](#)  | [download](#) |      
-| Uzbek | [download](#)  | [download](#) |           | Hindi | [download](#)  | [download](#) |         
-| Vietnamese | [download](#)  | [download](#) |      | Hungarian | [download](#)  | [download](#) |         
-| Welsh | [download](#)  | [download](#) |           | Indonesian | [download](#)  | [download](#) |    
-| yoruba | [download](#)  | [download](#) |          | Italian | [download](#)  | [download](#) |       
+| Albanian | [download](#)  | [download](#) |          | Romanian | [download](#)  | [download](#) |               
+| Arabic | [download](#)  | [download](#) |            | Serbian | [download](#)  | [download](#) |                
+| Azerbaijani | [download](#)  | [download](#) |       | Slovak | [download](#)  | [download](#) |                 
+| Bengali | [download](#)  | [download](#) |           | Somali | [download](#)  | [download](#) |                 
+| Bosnian | [download](#)  | [download](#) |           | Spanish | [download](#)  | [download](#) |                
+| Bulgarian | [download](#)  | [download](#) |         | Swedish | [download](#)  | [download](#) |                
+| Cebuano | [download](#)  | [download](#) |           | Tamil | [download](#)  | [download](#) |                  
+| chinese | [download](#)  | [download](#) |           | Telugu | [download](#)  | [download](#) |                 
+| Dutch | [download](#)  | [download](#) |             | Thai | [download](#)  | [download](#) |         
+| Filipino | [download](#)  | [download](#) |          | tmp | [download](#)  | [download](#) |          
+| French | [download](#)  | [download](#) |            | Turkish | [download](#)  | [download](#) |      
+| German | [download](#)  | [download](#) |            | Ukrainian | [download](#)  | [download](#) |    
+| Gujarati | [download](#)  | [download](#) |          | Urdu | [download](#)  | [download](#) |         
+| Hindi | [download](#)  | [download](#) |             | Uzbek | [download](#)  | [download](#) |        
+| Hungarian | [download](#)  | [download](#) |         | Vietnamese | [download](#)  | [download](#) |   
+| Indonesian | [download](#)  | [download](#) |        | Welsh | [download](#)  | [download](#) |        
+| Italian | [download](#)  | [download](#) |           | yoruba | [download](#)  | [download](#) |       
 | Latvian | [download](#)  | [download](#) |         |         |                |               |
+
 
 
 
