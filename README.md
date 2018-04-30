@@ -31,5 +31,6 @@ ACL 2018. <br>
   month     = {July},
   year      = {2018},
   address   = {Melbourne, Australia},
-  publisher = {Association for Computational Linguistics},
+  publisher = {Association for Computational Linguistics}
+}
 ```
