@@ -120,10 +120,11 @@ The `dictionary/` folder holds the gold-standard translations between `source` l
 
 ```
 python code/evaluate_package_cnn_combined.py 
-     -f /scratch-shared/users/bcal/alexnet-combined-2/Gujarati/  \
-     -e /nlp    /data/bcal/features/alexnet/  \
-     -d /nlp/users/johnhew/image-translation/multilingual-google-image-scraper/dictionaries/ \
-     -o /scratch-shared/users/johnhew/small-vocab-results/Gujarati \
+     -f <path_to_source_features_lang_name>  \
+     -e /nlp  <path_to_English_features>  \
+     -d <path_to_dictionaries_folder> \
+     -o <path_to_desired_results_folder> \
+     -l <word_limit--try 100>
      -t 25 \
      -tc 25 \
 ```
