@@ -26,9 +26,9 @@ Each language download has the following macro file structure, each folder of wh
         english-features/
         english-text/
         english-metadata/
-        <language>-features/
-        <language>-text/
-        <language>-metadata/
+        <source>-features/
+        <source>-text/
+        <source>-metadata/
         dictionary/
 ```
 
@@ -57,60 +57,67 @@ The mapping between `<Section_ID>/<word_ID>` pairs and English word literals is 
              ...
 ```
 
-### `english-text/`
+#### `english-text/`
+The `english-text` folder holds the tokenized plaintext on the webpages that images showed up on.
+The structure is identical to that of `english-features`, where each English word is identified by a `<section_ID>/<word_ID>` pair.
+Each image index in `english-features` corresponds to one `<image_ID>.gz` file, though text crawling failed for some images.
 
-### `english-metadata/`
-
-### `<source>-features/`
-
-### `<source>-text/`
-
-### `<source>-metadata/`
-
-
-# Old docs
-
+#### `english-metadata/`
+The `english-metadata` folder holds the URLs of the images and corresponding websites for English images and words in the dataset.
+The folder has the structure `<Section_ID>/<word_id>.json`, so each English word has a single JSON metadata file.
+Each metadata file is a dictionary of the form:
 ```
-    /
-        english-features/
-           English-01/
-               <word_ID>/
-                 1.jpg.pkl
-                 2.jpg.pkl
-                 ...
-                 100.jpg.pkl
-               <word_ID>/
-               ...
-           English-02/
-               ...
-           ...
-           English-27/
-        source-features/
-              <word_ID>.combined.pkl
-              ...
-        dictionary/
-           dict.<lang_ID>
-           langcodes.csv
-           english_path_index.tsv
+{
+    '<image_ID_1>': {
+         'google': {
+               'ru': <referring web page URL>
+               }
+         'image_url': <URL of downloaded image>
+         }
+    '<image_ID_2>': { ... }
+    ...
+    '<image_ID_100>': { ... }
+}
 ```
+     
+         
 
-#### `english/`
-The `english/` folder holds the feature files for images of English words.
-The `english/` folder contains 27 subfolders, under each of which are `word_ID` folders.
-Each `word_ID` folder contains all the image feature files for a single English word. Each feature file is a `.pkl` containing a vector that is of dimension `(1,4096)`.
-You'll notice that not all English words are present for each language; by default, only the English words that are translations of some word in the downloaded language are present in the `english/` folder.
-However, the identification of English words throug subfolder and `word_ID` is unique across all potentially downloadable languages, so you can combine your English directories across languages if desired.
+#### `<source>-features/`
 
-#### `source/`
-The `source/` folder holds the feature files for images of source language words.
-The `source/` folder contains `word_ID` files, each of which is a matrix that is of dimension `(k,4096)` where `k` is the number of images that represent the word.
+The `source-features/` folder holds the feature files for images of source language words.
+The `source-features/` folder contains `word_ID` files, each of which is a `.pkl` matrix that is of dimension `(k,4096)` where `k` is the number of images that represent the word.
 In the medium view, these images have already been filtered to those whose corresponding website had text in the `source` language.
+The mapping between `word_ID` and source language literal word is given in `dictionaries/dict.<source_lang_ID` by the index of the word in the dictionary order.
+
+```
+    <source>-features/
+       <word_ID>.combined.pkl
+```
+
+#### `<source>-text/`
+The `<source>-text` folder holds the tokenized plaintext on the webpages that images for the `<source>` language showed up on.
+Each `word_ID` is a folder, in which each image has a single `.txt` file containing all text for that image.
+Thus, the structure is:
+```
+    <source>-text/
+        <word_ID>/
+            <image_ID>.txt
+```
+
+#### `<source>-metadata/`
+The `<source>-metadata` folder holds the URLs of the images and corresponding websites for `<source>` language images and words in the dataset.
+Each word has a single metadata file, `<word_id>.json`, in the directory.
+Each metadata file is of identical structure to the English metadata files, above.
+
 
 #### `dictionary/`
 The `dictionary/` folder holds the gold-standard translations between `source` language words and English words in `dict.<lang_ID>`. It also contains a mapping from language name to language ID, used in our software, at `langcodes.csv`.
 
 
 ### Running a translation experiment
+
+(in progress)
+
 ```
 python code/evaluate_package_cnn_combined.py 
      -f /scratch-shared/users/bcal/alexnet-combined-2/Gujarati/  \
