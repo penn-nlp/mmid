@@ -1,6 +1,6 @@
-## Images for Translation Dataset
+## The Parallel Images (ParIm) Dataset
 
-Images for Translation (name pending) is a large-scale, massively multilingual dataset of images paired with the words they represent.
+Parellel Images (ParIm) (name pending) is a large-scale, massively multilingual dataset of images paired with the words they represent collected at the [University of Pennsylvania](https://upenn.edu).
 The dataset is doubly parallel: for each language, its words are stored parallel to images that represent the word, _and_ parallel to the word's translation into English (and corresponding images.)
 
 By far the largest dataset of its kind, with 100 languages and up to 10,000 words per language, it is useful for evaluating image-based translation methods.
@@ -20,7 +20,7 @@ Check out the [downloads](downloads.html) page for options on how to access the 
 If you use this dataset for your research, please cite:
 
 Learning Translations via Images: A Large Multilingual Dataset and Comprehensive Study. <br>
-John Hewitt*, Daphne Ippolito*, Brendan Callahan, Reno Kriz, Derry Tanti Wijaya and Chris Callison-Burch. <br>
+John Hewitt\*, Daphne Ippolito\*, Brendan Callahan, Reno Kriz, Derry Tanti Wijaya and Chris Callison-Burch. <br>
 ACL 2018. <br>
 
 ```
