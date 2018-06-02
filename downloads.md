@@ -21,7 +21,7 @@ The metadata files relate images to their URLs.
 
 | Language      |  Dataset      |  Metadata  |          | Language      |  Dataset      |  Metadata  |     
 | ------------- | ------------- | ---------- | ---- | ------------- | ------------- | ---------- |        
-| Albanian | [download](#)  | [download](#) |          | Latvian | [download](#)  | [download](#) |    
+| Albanian | <span style="color:#f45f42">[download](#)</span>  | [download](#) |          | Latvian | [download](#)  | [download](#) |    
 | Arabic | [download](#)  | [download](#) |            | Romanian | [download](#)  | [download](#) |    
 | Azerbaijani | [download](#)  | [download](#) |       | Serbian | [download](#)  | [download](#) |     
 | Bengali | [download](#)  | [download](#) |           | Slovak | [download](#)  | [download](#) |      
