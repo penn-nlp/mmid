@@ -1,4 +1,4 @@
-t## The Massively Multilingual Image Dataset (MMID)
+## The Massively Multilingual Image Dataset (MMID)
 
 MMID is a large-scale, massively multilingual dataset of images paired with the words they represent collected at the [University of Pennsylvania](https://upenn.edu).
 The dataset is doubly parallel: for each language, words are stored parallel to images that represent the word, _and_ parallel to the word's translation into English (and corresponding images.)
