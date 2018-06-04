@@ -2,7 +2,7 @@
 title: Documentation
 ---
 
-Due to the size and scale of Imgt, we provide a few different views of the dataset.
+Due to the size and scale of MMID, we provide a few different views of the dataset.
 
  - **<span style="color:#B08519">[raw]</span>** On the large end, we have raw image and web crawls for up to 10,000 words in each of 100 languages.
 This is about **21TB**. 
