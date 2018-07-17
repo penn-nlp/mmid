@@ -39,31 +39,6 @@ The metadata files relate images to their URLs.
 | Indonesian | [download](http://nlpgrid.seas.upenn.edu/MMID/indonesian.tar.gz)  |        | Welsh | [download](http://nlpgrid.seas.upenn.edu/MMID/welsh.tar.gz)  |        
 | Italian | [download](http://nlpgrid.seas.upenn.edu/MMID/italian.tar.gz)  |           | Yoruba | [download](http://nlpgrid.seas.upenn.edu/MMID/yoruba.tar.gz)  |  
 
-
-<--
-| Language      |  Dataset      |  Metadata  |          | Language      |  Dataset      |  Metadata  |     
-| ------------- | ------------- | ---------- | ---- | ------------- | ------------- | ---------- |        
-| Albanian | download  | download |          | Latvian | download  | download |    
-| Arabic | download  | download |            | Romanian | download  | download |    
-| Azerbaijani | download  | download |       | Serbian | download  | download |     
-| Bengali | download  | download |           | Slovak | download  | download |      
-| Bosnian | download  | download |           | Somali | download  | download |      
-| Bulgarian | download  | download |         | Spanish | download  | download |     
-| Cebuano | download  | download |           | Swedish | download  | download |     
-| chinese | download  | download |           | Tamil | download  | download |       
-| Dutch | download  | download |             | Telugu | download  | download |      
-| Filipino | download  | download |          | Thai | download  | download |    
-| French | download  | download |            | Turkish | download  | download |      
-| German | download  | download |            | Ukrainian | download  | download |    
-| Gujarati | download  | download |          | Urdu | download  | download |         
-| Hindi | download  | download |             | Uzbek | download  | download |        
-| Hungarian | download  | download |         | Vietnamese | download  | download |   
-| Indonesian | download  | download |        | Welsh | download  | download |        
-| Italian | download  | download |           | Yoruba | download  | download |  
--->
-
-
-
 ## **<span style="color:#B08519">[small]</span>** Downloads
 
 [small] views are of the same format as [med] views, but with fewer words for each language, letting you get a taste for working with the dataset without commiting disk space and transfer time. 
