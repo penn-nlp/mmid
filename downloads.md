@@ -16,30 +16,31 @@ It contains  scripts for reading in CNN image feature files and predicting trans
 For these 30 languages, we extracted CNN features and plaintext for all words of a language. Using these, you can recreate or improve on the translation results of our ACL paper. This is about **TBD GB** per language.
 The metadata files relate images to their URLs.
 
-<span style="color:#f45f42">[med] downloads are not available at this time. We're working on it (first)!</span>
+<span style="color:#f45f42">Warning: Each [med] download can be as much as 11 GB!</span>
 
 
-<!--| Language      |  Dataset      |  Metadata  |          | Language      |  Dataset      |  Metadata  |     
+| Language      |  Dataset   |          | Language      |  Dataset     |     
 | ------------- | ------------- | ---------- | ---- | ------------- | ------------- | ---------- |        
-| Albanian | [download](#)  | [download](#) |          | Latvian | [download](#)  | [download](#) |    
-| Arabic | [download](#)  | [download](#) |            | Romanian | [download](#)  | [download](#) |    
-| Azerbaijani | [download](#)  | [download](#) |       | Serbian | [download](#)  | [download](#) |     
-| Bengali | [download](#)  | [download](#) |           | Slovak | [download](#)  | [download](#) |      
-| Bosnian | [download](#)  | [download](#) |           | Somali | [download](#)  | [download](#) |      
-| Bulgarian | [download](#)  | [download](#) |         | Spanish | [download](#)  | [download](#) |     
-| Cebuano | [download](#)  | [download](#) |           | Swedish | [download](#)  | [download](#) |     
-| chinese | [download](#)  | [download](#) |           | Tamil | [download](#)  | [download](#) |       
-| Dutch | [download](#)  | [download](#) |             | Telugu | [download](#)  | [download](#) |      
-| Filipino | [download](#)  | [download](#) |          | Thai | [download](#)  | [download](#) |    
-| French | [download](#)  | [download](#) |            | Turkish | [download](#)  | [download](#) |      
-| German | [download](#)  | [download](#) |            | Ukrainian | [download](#)  | [download](#) |    
-| Gujarati | [download](#)  | [download](#) |          | Urdu | [download](#)  | [download](#) |         
-| Hindi | [download](#)  | [download](#) |             | Uzbek | [download](#)  | [download](#) |        
-| Hungarian | [download](#)  | [download](#) |         | Vietnamese | [download](#)  | [download](#) |   
-| Indonesian | [download](#)  | [download](#) |        | Welsh | [download](#)  | [download](#) |        
-| Italian | [download](#)  | [download](#) |           | Yoruba | [download](#)  | [download](#) |  
--->
+| Albanian | [download](http://nlpgrid.seas.upenn.edu/MMID/albanian.tar.gz)  |          | Latvian | [download](http://nlpgrid.seas.upenn.edu/MMID/latvian.tar.gz)  |    
+| Arabic | [download](http://nlpgrid.seas.upenn.edu/MMID/arabic.tar.gz)  |            | Romanian | [download](http://nlpgrid.seas.upenn.edu/MMID/romanian.tar.gz)  |    
+| Azerbaijani | [download](http://nlpgrid.seas.upenn.edu/MMID/azerbaijani.tar.gz)  |       | Serbian | [download](http://nlpgrid.seas.upenn.edu/MMID/serbian.tar.gz)  |     
+| Bengali | [download](http://nlpgrid.seas.upenn.edu/MMID/bengali.tar.gz)  |           | Slovak | [download](http://nlpgrid.seas.upenn.edu/MMID/slovak.tar.gz)  |      
+| Bosnian | [download](http://nlpgrid.seas.upenn.edu/MMID/bosnian.tar.gz)  |           | Somali | [download](http://nlpgrid.seas.upenn.edu/MMID/somali.tar.gz)  |      
+| Bulgarian | [download](http://nlpgrid.seas.upenn.edu/MMID/bulgarian.tar.gz)  |         | Spanish | [download](http://nlpgrid.seas.upenn.edu/MMID/spanish.tar.gz)  |     
+| Cebuano | [download](http://nlpgrid.seas.upenn.edu/MMID/cebuano.tar.gz)  |           | Swedish | [download](http://nlpgrid.seas.upenn.edu/MMID/swedish.tar.gz)  |     
+| chinese | [download](http://nlpgrid.seas.upenn.edu/MMID/chinese.tar.gz)  |           | Tamil | [download](http://nlpgrid.seas.upenn.edu/MMID/tamil.tar.gz)  |       
+| Dutch | [download](http://nlpgrid.seas.upenn.edu/MMID/dutch.tar.gz)  |             | Telugu | [download](http://nlpgrid.seas.upenn.edu/MMID/telugu.tar.gz)  |      
+| Filipino | [download](http://nlpgrid.seas.upenn.edu/MMID/filipino.tar.gz)  |          | Thai | [download](http://nlpgrid.seas.upenn.edu/MMID/thai.tar.gz)  |    
+| French | [download](http://nlpgrid.seas.upenn.edu/MMID/french.tar.gz)  |            | Turkish | [download](http://nlpgrid.seas.upenn.edu/MMID/turkish.tar.gz)  |      
+| German | [download](http://nlpgrid.seas.upenn.edu/MMID/german.tar.gz)  |            | Ukrainian | [download](http://nlpgrid.seas.upenn.edu/MMID/ukrainian.tar.gz)  |    
+| Gujarati | [download](http://nlpgrid.seas.upenn.edu/MMID/gujarati.tar.gz)  |          | Urdu | [download](http://nlpgrid.seas.upenn.edu/MMID/urdu.tar.gz)  |         
+| Hindi | [download](http://nlpgrid.seas.upenn.edu/MMID/hindi.tar.gz)  |             | Uzbek | [download](http://nlpgrid.seas.upenn.edu/MMID/uzbek.tar.gz)  |        
+| Hungarian | [download](http://nlpgrid.seas.upenn.edu/MMID/hungarian.tar.gz)  |         | Vietnamese | [download](http://nlpgrid.seas.upenn.edu/MMID/vietnamese.tar.gz)  |   
+| Indonesian | [download](http://nlpgrid.seas.upenn.edu/MMID/indonesian.tar.gz)  |        | Welsh | [download](http://nlpgrid.seas.upenn.edu/MMID/welsh.tar.gz)  |        
+| Italian | [download](http://nlpgrid.seas.upenn.edu/MMID/italian.tar.gz)  |           | Yoruba | [download](http://nlpgrid.seas.upenn.edu/MMID/yoruba.tar.gz)  |  
 
+
+<--
 | Language      |  Dataset      |  Metadata  |          | Language      |  Dataset      |  Metadata  |     
 | ------------- | ------------- | ---------- | ---- | ------------- | ------------- | ---------- |        
 | Albanian | download  | download |          | Latvian | download  | download |    
@@ -59,7 +60,7 @@ The metadata files relate images to their URLs.
 | Hungarian | download  | download |         | Vietnamese | download  | download |   
 | Indonesian | download  | download |        | Welsh | download  | download |        
 | Italian | download  | download |           | Yoruba | download  | download |  
-
+-->
 
 
 
