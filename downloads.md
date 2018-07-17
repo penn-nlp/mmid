@@ -13,11 +13,8 @@ It contains  scripts for reading in CNN image feature files and predicting trans
 
 ## **<span style="color:#B08519">[med]</span>** Downloads
 
-For these 30 languages, we extracted CNN features and plaintext for all words of a language. Using these, you can recreate or improve on the translation results of our ACL paper. This is about **TBD GB** per language.
+For these 30 languages, we extracted CNN features and plaintext for all words of a language. Using these, you can recreate or improve on the translation results of our ACL paper. As a warning, each download is as much as **11 GB** per language!
 The metadata files relate images to their URLs.
-
-<span style="color:#f45f42">Warning: Each [med] download can be as much as 11 GB!</span>
-
 
 | Language      |  Dataset   |          | Language      |  Dataset     |     
 | ------------- | ------------- | ---------- | ---- | ------------- | ------------- | ---------- |        
