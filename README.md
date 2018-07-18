@@ -11,7 +11,7 @@ See the [documentation page](doc.html)
 
 ## Downloads
 
-<span style="color:#f45f42"> Downloads are not up yet. We'll have language-filtered CNN features, image link metadata, and text available for the 32 languages evaluated in our ACL paper by the time of the conference. Getting the whole 21+TB hosted will take some time, but we're working on it!</span>
+<span style="color:#f45f42"> CNN features and web text for the 30 languages evaluated on in the paper are up. Getting the whole 21+TB hosted will take some time, but we're working on it!</span>
 
 Check out the [downloads](downloads.html) page for options on how to access the dataset. 
 
