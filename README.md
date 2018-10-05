@@ -9,6 +9,8 @@ By far the largest dataset of its kind, with 100 languages and up to 10,000 word
 
 See the [documentation page](doc.html)
 
+If you have questions, please email the MMID users list, mmid-users@googlegroups.com.
+
 ## Downloads
 
 <span style="color:#f45f42"> CNN features and web text for the 30 languages evaluated on in the paper are up. Getting the whole 21+TB hosted will take some time, but we're working on it!</span>
