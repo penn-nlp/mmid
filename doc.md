@@ -10,6 +10,71 @@ This is about **21TB**.
  - **<span style="color:#B08519">[small]</span>** For the same 30 languages, we provide a "toy" sample for development, with 1 image representing each word. The format of this view is the same as \[med\]. This is about **TBD TB**.
 
 
+## **<span style="color:#B08519">[raw]</span>** Documentation
+In this view of the data, we present images unfiltered by language, and webpage crawls without any pre-processing, providing MMID data in its entirety.
+
+### Image dataset structure
+
+Each language has its own image package, named `<LANGUAGE>-package.tar`.
+The structure of each iamge package is as follows, where `n` is the number of words represented for the language in the dataset:
+
+```
+    /
+        0.tar.gz
+            word.txt
+            metadata.json
+            errors.json
+            /<DD>.<EXT> # image
+            ...
+            /<DD>.<EXT>
+        ...
+        <n-1>.tar.gz
+```
+In this structure, each word in the dataset has its own gzipped tarball, named by the index of the word in the language's dictionary, e.g., `0.tar.gz`.
+In the tarball is `word.txt`, which contains the plaintext of the word, as well as `errors.json`, a log of errors encountered during the image scrape.
+
+The tarball also contains `metadata.json`, which includes crawl metadata like the URLs of the images stored in the tarball, with the following structure:
+
+```
+{
+    '<image_ID_1>': {
+         'google': {
+               'ru': <referring web page URL>
+               }
+         'image_url': <URL of downloaded image>
+         }
+    '<image_ID_2>': { ... }
+    ...
+    '<image_ID_100>': { ... }
+}
+```
+Finally, the tarball contains up to 100 image files, of the form `<D>.<EXT>` where `<DD>` is a two- or three-digit numeral between 01 and 100, and EXT is the filetype of the image, which varies.
+
+### Text crawl dataset
+In the raw dump, we present the text crawl corresponding to our web crawl in a completely unadulterated form.
+We crawled web pages using the Nutch crawler, and release the output of the crawls in [WARC](https://www.loc.gov/preservation/digital/formats/fdd/fdd000236.shtml), a standard, readable, maintainable format.
+
+The data for each language is contained at `<LANGUAGE>-text.tar`.
+The crawl for each language is split arbitrarily into multiple segments.
+Each segment name has a name similar to `20170223072936-part-00000.seg-00000.attempt-00000.warc.gz`, but the names are arbitrary.
+While we omit an in-depth description of the WARC format here, each segment consists of plain text (after unzipping) similar to
+
+```
+WARC/1.0
+WARC-Record-ID: <urn:uuid:4b83c423-3f22-4ee1-b8ea-c1a659774d7a>
+Content-Length: 65536
+WARC-Date: 2017-02-25T18:01:51Z
+WARC-Type: resource
+WARC-Target-URI: http://02elf.net/headlines/politics-headlines/nrw-cdu-will-fluechtlinge-rigoros-zurueckfuehren-962524
+
+<!DOCTYPE html>
+<html  xmlns="http://www.w3.org/1999/xhtml" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml" lang="de-DE" class="no-js">
+<head>
+...content...
+```
+
+Thus, the HTML of each page is preceded by metadata, and succeeded by the metadata of the next page. 
+
 
 ## **<span style="color:#B08519">[med]</span>** Documentation
 
