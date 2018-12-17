@@ -4,7 +4,7 @@ title: Downloads
 
 ## Code
 
-To replicate the experiments in _Learning Translations via Images_, you'll need the code at this [github repo](#).
+To replicate the experiments in _Learning Translations via Images_, you'll need the code at this [github repo](https://github.com/john-hewitt/mmid-tools).
 It contains  scripts for reading in CNN image feature files and predicting translations as described in the paper.
 
 ## **<span style="color:#B08519">[raw]</span>** Downloads
