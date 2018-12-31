@@ -105,12 +105,6 @@ WARC-Target-URI: http://02elf.net/headlines/politics-headlines/nrw-cdu-will-flue
 
 Thus, the HTML of each page is preceded by metadata, and succeeded by the metadata of the next page. 
 
-
-## **<span style="color:#B08519">[med]</span>** Documentation
-
-Download the dataset [here](downloads.html).
-For the example translation experiment below, we assume that you've downloaded a medium language pack.
-
 ### CNN package
 
 In this section, we'll discuss how to work with the CNN image feature downloads.
