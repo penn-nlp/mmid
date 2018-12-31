@@ -2,18 +2,19 @@
 title: Documentation
 ---
 
-Due to the size and scale of MMID, we provide a few different views of the dataset.
+MMID provides images for words in 99 languages, packaged by language.
+For all 99 languages, it also provides images for each word's English translation.
+The dataset is packaged by language, so you can download any of the languages that interest you.
+Because of its size, MMID is distributed for each language in a few forms:
 
- - **<span style="color:#B08519">[raw]</span>** On the large end, we have raw image and web crawls for up to 10,000 words in each of 100 languages.
-This is about **21TB**. 
- - **<span style="color:#B08519">[med]</span>** For 30 languages, we extracted CNN features and plaintext for all words of a language. Using these, you can recreate or improve on the translation results of our ACL paper. This is about **TBD TB**.
- - **<span style="color:#B08519">[small]</span>** For the same 30 languages, we provide a "toy" sample for development, with 1 image representing each word. The format of this view is the same as \[med\]. This is about **TBD TB**.
+ - **<span style="color:#B08519">[image package]</span>** The image package contains 100 images for each of up to 10,000 words in each of the 99 languages, as well as the corresponding metadata.
+ - **<span style="color:#B08519">[mini image package]</span>** The mini image package contains 1 image for each word in each of the 99 languages, as well as the corresponding metadata.
+ - **<span style="color:#B08519">[metadata]</span>** The metadata is a `.jsonl` file which provides URLs to images, thumbnails, and the webpages they appeared on.
+ - **<span style="color:#B08519">[dictionary]</span>** The dictionary file simply contains each word for each language and the index used to identify it in MMID.
+ - **<span style="color:#B08519">[text package]</span>** The text package contains WARC files with the contents of each webpage that the images in MMID appeared on.
+ - **<span style="color:#B08519">[CNN package]</span>** The CNN package contains CNN-featurized images for a subset of languages, used in our ACL images-for-translation paper.
 
-
-## **<span style="color:#B08519">[raw]</span>** Documentation
-In this view of the data, we present images unfiltered by language, and webpage crawls without any pre-processing, providing MMID data in its entirety.
-
-### Image dataset structure
+### Image Package
 
 Each language has its own image package, named `<LANGUAGE>-package.tar`.
 The structure of each iamge package is as follows, where `n` is the number of words represented for the language in the dataset:
@@ -24,9 +25,9 @@ The structure of each iamge package is as follows, where `n` is the number of wo
             word.txt
             metadata.json
             errors.json
-            /<DD>.<EXT> # image
+            /<DD>.png 
             ...
-            /<DD>.<EXT>
+            /<DD>.png
         ...
         <n-1>.tar.gz
 ```
@@ -48,9 +49,38 @@ The tarball also contains `metadata.json`, which includes crawl metadata like th
     '<image_ID_100>': { ... }
 }
 ```
-Finally, the tarball contains up to 100 image files, of the form `<D>.<EXT>` where `<DD>` is a two- or three-digit numeral between 01 and 100, and EXT is the filetype of the image, which varies.
+Finally, the tarball contains up to 100 image files, of the form `<D>.png` where `<DD>` is a two- or three-digit numeral between 01 and 100.
 
-### Text crawl dataset
+### Mini Image Package
+The form of the mini image package is identical to that of the full image package, to aid rapid development. It just has 1 image per word instead of 100.
+
+### Metadata Package
+This package provides all metadata information for all words and words' images (for a single language.)
+It is in the JSON lines (`.jsonl`) format, in which each line of the file is a JSON object with information for a single word, of the following form:
+```
+{
+  'word_string': WORD_STRING,
+  'word_index': WORD_INDEX,
+  'webpage_urls': {
+      IMG_ID1: WEB_URL1,
+      IMG_ID2: WEB_URL2,
+      ...
+  },
+  'image_original_urls': {
+      IMG_ID1: IMG_URL1,
+      IMG_ID2: IMG_URL2,
+      ...
+  },
+  'image_thumbnail_urls': {
+      IMG_ID1: THUMB_URL1,
+      IMG_ID2: THUMB_URL2,
+      ...
+  }
+}
+```
+Where the `word_string` is the character sequence (in unicode) of the foreign word, the `word_index` specifies the index folder under which the images of the word are stored, the `image_original_urls` specifies the mapping to (possibly rotted) links to the original images, and the `image_thumbnail_urls` specifies the mapping to thumbnails of the original images.
+
+### Text package
 In the raw dump, we present the text crawl corresponding to our web crawl in a completely unadulterated form.
 We crawled web pages using the Nutch crawler, and release the output of the crawls in [WARC](https://www.loc.gov/preservation/digital/formats/fdd/fdd000236.shtml), a standard, readable, maintainable format.
 
@@ -81,9 +111,9 @@ Thus, the HTML of each page is preceded by metadata, and succeeded by the metada
 Download the dataset [here](downloads.html).
 For the example translation experiment below, we assume that you've downloaded a medium language pack.
 
-### Dataset structure
+### CNN package
 
-In this section, we'll discuss how to work with the medium view image feature downloads.
+In this section, we'll discuss how to work with the CNN image feature downloads.
 Each language download has the following macro file structure, each folder of which is described in more depth below.
 
 ```
