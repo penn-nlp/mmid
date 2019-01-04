@@ -52,13 +52,13 @@ These packages, as described on the documentation page, are on the way.
 | basque | built | built | built | built |
 | belarusian | built | built | built | built |
 | bengali | built | built | built | built |
-| bishnupriya-manipuri | pending | pending | pending | pending |
+| bishnupriya-manipuri | built | built | built | built |
 | bosnian | built | built | built | built |
 | breton | pending | built | pending | built |
 | bulgarian | built | built | built | built |
 | catalan | pending | pending | pending | pending |
 | cebuano | built | built | built | built |
-| central-bicolano | pending | pending | pending | pending |
+| central-bicolano | built | built | built | built |
 | chinese | pending | pending | pending | pending |
 | croatian | pending | pending | pending | pending |
 | czech | pending | pending | pending | pending |
