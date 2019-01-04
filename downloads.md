@@ -53,11 +53,11 @@ These packages, as described on the documentation page, are on the way.
 | belarusian | built | built | built | built |
 | bengali | built | built | built | built |
 | bishnupriya-manipuri | pending | pending | pending | pending |
-| bosnian | pending | pending | pending | pending |
-| breton | pending | pending | pending | pending |
-| bulgarian | pending | pending | pending | pending |
+| bosnian | built | built | built | built |
+| breton | pending | built | pending | built |
+| bulgarian | built | built | built | built |
 | catalan | pending | pending | pending | pending |
-| cebuano | pending | pending | pending | pending |
+| cebuano | built | built | built | built |
 | central-bicolano | pending | pending | pending | pending |
 | chinese | pending | pending | pending | pending |
 | croatian | pending | pending | pending | pending |
@@ -165,4 +165,3 @@ These packages, as described on the documentation page, are on the way.
 | welsh | pending | pending | pending | pending |
 | wolof | pending | pending | pending | pending |
 | yoruba | pending | pending | pending | pending |
-
