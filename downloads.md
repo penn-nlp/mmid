@@ -2,36 +2,6 @@
 title: Downloads
 ---
 
-## Code
-
-To replicate the experiments in _Learning Translations via Images_, you'll need the code at this [github repo](https://github.com/john-hewitt/mmid-tools).
-It contains  scripts for reading in CNN image feature files and predicting translations as described in the paper.
-
-
-## **<span style="color:#B08519">CNN package</span>** Downloads
-
-For these 30 languages, we extracted CNN features and plaintext for all words of a language. Using these, you can recreate or improve on the translation results of our ACL paper. As a warning, each download is as much as **11 GB** per language!
-The metadata files relate images to their URLs.
-
-| Language      |  Dataset   |          | Language      |  Dataset     |     
-| ------------- | ------------- | ---------- | ---- | ------------- | ------------- | ---------- |        
-| Albanian | [download](http://nlpgrid.seas.upenn.edu/MMID/albanian.tar.gz)  |          | Latvian | [download](http://nlpgrid.seas.upenn.edu/MMID/latvian.tar.gz)  |    
-| Arabic | [download](http://nlpgrid.seas.upenn.edu/MMID/arabic.tar.gz)  |            | Romanian | [download](http://nlpgrid.seas.upenn.edu/MMID/romanian.tar.gz)  |    
-| Azerbaijani | [download](http://nlpgrid.seas.upenn.edu/MMID/azerbaijani.tar.gz)  |       | Serbian | [download](http://nlpgrid.seas.upenn.edu/MMID/serbian.tar.gz)  |     
-| Bengali | [download](http://nlpgrid.seas.upenn.edu/MMID/bengali.tar.gz)  |           | Slovak | [download](http://nlpgrid.seas.upenn.edu/MMID/slovak.tar.gz)  |      
-| Bosnian | [download](http://nlpgrid.seas.upenn.edu/MMID/bosnian.tar.gz)  |           | Somali | [download](http://nlpgrid.seas.upenn.edu/MMID/somali.tar.gz)  |      
-| Bulgarian | [download](http://nlpgrid.seas.upenn.edu/MMID/bulgarian.tar.gz)  |         | Spanish | [download](http://nlpgrid.seas.upenn.edu/MMID/spanish.tar.gz)  |     
-| Cebuano | [download](http://nlpgrid.seas.upenn.edu/MMID/cebuano.tar.gz)  |           | Swedish | [download](http://nlpgrid.seas.upenn.edu/MMID/swedish.tar.gz)  |     
-| chinese | [download](http://nlpgrid.seas.upenn.edu/MMID/chinese.tar.gz)  |           | Tamil | [download](http://nlpgrid.seas.upenn.edu/MMID/tamil.tar.gz)  |       
-| Dutch | [download](http://nlpgrid.seas.upenn.edu/MMID/dutch.tar.gz)  |             | Telugu | [download](http://nlpgrid.seas.upenn.edu/MMID/telugu.tar.gz)  |      
-| Filipino | [download](http://nlpgrid.seas.upenn.edu/MMID/filipino.tar.gz)  |          | Thai | [download](http://nlpgrid.seas.upenn.edu/MMID/thai.tar.gz)  |    
-| French | [download](http://nlpgrid.seas.upenn.edu/MMID/french.tar.gz)  |            | Turkish | [download](http://nlpgrid.seas.upenn.edu/MMID/turkish.tar.gz)  |      
-| German | [download](http://nlpgrid.seas.upenn.edu/MMID/german.tar.gz)  |            | Ukrainian | [download](http://nlpgrid.seas.upenn.edu/MMID/ukrainian.tar.gz)  |    
-| Gujarati | [download](http://nlpgrid.seas.upenn.edu/MMID/gujarati.tar.gz)  |          | Urdu | [download](http://nlpgrid.seas.upenn.edu/MMID/urdu.tar.gz)  |         
-| Hindi | [download](http://nlpgrid.seas.upenn.edu/MMID/hindi.tar.gz)  |             | Uzbek | [download](http://nlpgrid.seas.upenn.edu/MMID/uzbek.tar.gz)  |        
-| Hungarian | [download](http://nlpgrid.seas.upenn.edu/MMID/hungarian.tar.gz)  |         | Vietnamese | [download](http://nlpgrid.seas.upenn.edu/MMID/vietnamese.tar.gz)  |   
-| Indonesian | [download](http://nlpgrid.seas.upenn.edu/MMID/indonesian.tar.gz)  |        | Welsh | [download](http://nlpgrid.seas.upenn.edu/MMID/welsh.tar.gz)  |        
-| Italian | [download](http://nlpgrid.seas.upenn.edu/MMID/italian.tar.gz)  |           | Yoruba | [download](http://nlpgrid.seas.upenn.edu/MMID/yoruba.tar.gz)  |  
 
 
 ## MMID packages
@@ -116,3 +86,35 @@ Through the generosity of the Amazon Public Datasets program, each download is a
 | telugu | [link](https://s3.amazonaws.com/mmid-pds/language_image_packages/scale-telugu-package.tgz) | [link](https://s3.amazonaws.com/mmid-pds/mini_language_image_packages/mini-afrikaans-package.tgz) | [link](https://s3.amazonaws.com/mmid-pds/language_metadata_files/metadata-telugu-package.jsonl) | [link](https://s3.amazonaws.com/mmid-pds/language_index_files/index-telugu-package.tsv) |
 | thai | [link](https://s3.amazonaws.com/mmid-pds/language_image_packages/scale-thai-package.tgz) | [link](https://s3.amazonaws.com/mmid-pds/mini_language_image_packages/mini-afrikaans-package.tgz) | [link](https://s3.amazonaws.com/mmid-pds/language_metadata_files/metadata-thai-package.jsonl) | [link](https://s3.amazonaws.com/mmid-pds/language_index_files/index-thai-package.tsv) |
 | turkish-august | [link](https://s3.amazonaws.com/mmid-pds/language_image_packages/scale-turkish-august-package.tgz) | [link](https://s3.amazonaws.com/mmid-pds/mini_language_image_packages/mini-afrikaans-package.tgz) | [link](https://s3.amazonaws.com/mmid-pds/language_metadata_files/metadata-turkish-august-package.jsonl) | [link](https://s3.amazonaws.com/mmid-pds/language_index_files/index-turkish-august-package.tsv) |
+
+## Code
+
+To replicate the experiments in _Learning Translations via Images_, you'll need the code at this [github repo](https://github.com/john-hewitt/mmid-tools).
+It contains  scripts for reading in CNN image feature files and predicting translations as described in the paper.
+
+
+## **<span style="color:#B08519">CNN package</span>** Downloads
+
+For these 30 languages, we extracted CNN features and plaintext for all words of a language. Using these, you can recreate or improve on the translation results of our ACL paper. As a warning, each download is as much as **11 GB** per language!
+The metadata files relate images to their URLs.
+
+| Language      |  Dataset   |          | Language      |  Dataset     |     
+| ------------- | ------------- | ---------- | ---- | ------------- | ------------- | ---------- |        
+| Albanian | [download](http://nlpgrid.seas.upenn.edu/MMID/albanian.tar.gz)  |          | Latvian | [download](http://nlpgrid.seas.upenn.edu/MMID/latvian.tar.gz)  |    
+| Arabic | [download](http://nlpgrid.seas.upenn.edu/MMID/arabic.tar.gz)  |            | Romanian | [download](http://nlpgrid.seas.upenn.edu/MMID/romanian.tar.gz)  |    
+| Azerbaijani | [download](http://nlpgrid.seas.upenn.edu/MMID/azerbaijani.tar.gz)  |       | Serbian | [download](http://nlpgrid.seas.upenn.edu/MMID/serbian.tar.gz)  |     
+| Bengali | [download](http://nlpgrid.seas.upenn.edu/MMID/bengali.tar.gz)  |           | Slovak | [download](http://nlpgrid.seas.upenn.edu/MMID/slovak.tar.gz)  |      
+| Bosnian | [download](http://nlpgrid.seas.upenn.edu/MMID/bosnian.tar.gz)  |           | Somali | [download](http://nlpgrid.seas.upenn.edu/MMID/somali.tar.gz)  |      
+| Bulgarian | [download](http://nlpgrid.seas.upenn.edu/MMID/bulgarian.tar.gz)  |         | Spanish | [download](http://nlpgrid.seas.upenn.edu/MMID/spanish.tar.gz)  |     
+| Cebuano | [download](http://nlpgrid.seas.upenn.edu/MMID/cebuano.tar.gz)  |           | Swedish | [download](http://nlpgrid.seas.upenn.edu/MMID/swedish.tar.gz)  |     
+| chinese | [download](http://nlpgrid.seas.upenn.edu/MMID/chinese.tar.gz)  |           | Tamil | [download](http://nlpgrid.seas.upenn.edu/MMID/tamil.tar.gz)  |       
+| Dutch | [download](http://nlpgrid.seas.upenn.edu/MMID/dutch.tar.gz)  |             | Telugu | [download](http://nlpgrid.seas.upenn.edu/MMID/telugu.tar.gz)  |      
+| Filipino | [download](http://nlpgrid.seas.upenn.edu/MMID/filipino.tar.gz)  |          | Thai | [download](http://nlpgrid.seas.upenn.edu/MMID/thai.tar.gz)  |    
+| French | [download](http://nlpgrid.seas.upenn.edu/MMID/french.tar.gz)  |            | Turkish | [download](http://nlpgrid.seas.upenn.edu/MMID/turkish.tar.gz)  |      
+| German | [download](http://nlpgrid.seas.upenn.edu/MMID/german.tar.gz)  |            | Ukrainian | [download](http://nlpgrid.seas.upenn.edu/MMID/ukrainian.tar.gz)  |    
+| Gujarati | [download](http://nlpgrid.seas.upenn.edu/MMID/gujarati.tar.gz)  |          | Urdu | [download](http://nlpgrid.seas.upenn.edu/MMID/urdu.tar.gz)  |         
+| Hindi | [download](http://nlpgrid.seas.upenn.edu/MMID/hindi.tar.gz)  |             | Uzbek | [download](http://nlpgrid.seas.upenn.edu/MMID/uzbek.tar.gz)  |        
+| Hungarian | [download](http://nlpgrid.seas.upenn.edu/MMID/hungarian.tar.gz)  |         | Vietnamese | [download](http://nlpgrid.seas.upenn.edu/MMID/vietnamese.tar.gz)  |   
+| Indonesian | [download](http://nlpgrid.seas.upenn.edu/MMID/indonesian.tar.gz)  |        | Welsh | [download](http://nlpgrid.seas.upenn.edu/MMID/welsh.tar.gz)  |        
+| Italian | [download](http://nlpgrid.seas.upenn.edu/MMID/italian.tar.gz)  |           | Yoruba | [download](http://nlpgrid.seas.upenn.edu/MMID/yoruba.tar.gz)  |  
+
