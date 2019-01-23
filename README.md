@@ -13,9 +13,11 @@ If you have questions, please email the MMID users list, mmid-users@googlegroups
 
 ## Downloads
 
-<span style="color:#f45f42"> CNN features and web text for the 30 languages evaluated on in the paper are up.</span>
+We're happy to announce that MMID is available via the Amazon Public Datasets program!
+Through their generosity, we're able to provide all of MMID free of charge via a public S3 bucket.
 
-<span style="color:#f45f42"> We're happy to announce that MMID will be available via the Amazon Public Datasets program! Through their generosity, we'll soon be able to provide all of MMID free of charge via a public S3 bucket. </span>
+We currently have 75 out of 100 languages' data hosted.
+We're working on getting the final languages (as well as the English translations) ready for distribution.
 
 Check out the [downloads](downloads.html) page for options on how to access the dataset. 
 
