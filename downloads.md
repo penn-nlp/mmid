@@ -35,10 +35,9 @@ The metadata files relate images to their URLs.
 
 
 ## MMID packages
-We're making progress towards getting all MMID language packages up and available!
-Right now, we're working on packaging the data such that it's quick and easy to get started with MMID.
-These packages, as described on the documentation page, are on the way.
-Through the generosity of the Amazon Public Datasets program, each download will be available via a public S3 bucket!
+Below are links for the full MMID image/word dataset for each language (100 images), a smaller view of MMID with only 1 image per word (1 image), the metadata of all images and the webpages they showed up on, and the dictionary containing just the words we have images for in each language, as well as their canonical MMID ID within the language. For more information, see our [documentation page](https://multilingual-images.org/doc.html).
+
+Through the generosity of the Amazon Public Datasets program, each download is available via a public S3 bucket!
 
 | language | 100 images | 1 image | metadata | dictionary |
 | -------- | -------- | -------- | -------- | -------- |
