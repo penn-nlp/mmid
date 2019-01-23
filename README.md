@@ -3,7 +3,7 @@
 MMID is a large-scale, massively multilingual dataset of images paired with the words they represent collected at the [University of Pennsylvania](https://upenn.edu).
 The dataset is doubly parallel: for each language, words are stored parallel to images that represent the word, _and_ parallel to the word's translation into English (and corresponding images.)
 
-By far the largest dataset of its kind, with 100 languages and up to 10,000 words per language, it is useful for evaluating image-based translation methods.
+By far the largest dataset of its kind, it has 100 languages (including English) and up to 10,000 words per language! (and many more for English.)
 
 ## Getting Started
 
