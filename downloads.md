@@ -86,6 +86,8 @@ Through the generosity of the Amazon Public Datasets program, each download is a
 | telugu | [link](https://s3.amazonaws.com/mmid-pds/language_image_packages/scale-telugu-package.tgz) | [link](https://s3.amazonaws.com/mmid-pds/mini_language_image_packages/mini-telugu-package.tgz) | [link](https://s3.amazonaws.com/mmid-pds/language_metadata_files/metadata-telugu-package.jsonl) | [link](https://s3.amazonaws.com/mmid-pds/language_index_files/index-telugu-package.tsv) |
 | thai | [link](https://s3.amazonaws.com/mmid-pds/language_image_packages/scale-thai-package.tgz) | [link](https://s3.amazonaws.com/mmid-pds/mini_language_image_packages/mini-thai-package.tgz) | [link](https://s3.amazonaws.com/mmid-pds/language_metadata_files/metadata-thai-package.jsonl) | [link](https://s3.amazonaws.com/mmid-pds/language_index_files/index-thai-package.tsv) |
 | turkish-august | [link](https://s3.amazonaws.com/mmid-pds/language_image_packages/scale-turkish-august-package.tgz) | [link](https://s3.amazonaws.com/mmid-pds/mini_language_image_packages/mini-turkish-august-package.tgz) | [link](https://s3.amazonaws.com/mmid-pds/language_metadata_files/metadata-turkish-august-package.jsonl) | [link](https://s3.amazonaws.com/mmid-pds/language_index_files/index-turkish-august-package.tsv) |
+
+
 ## Code
 
 To replicate the experiments in _Learning Translations via Images_, you'll need the code at this [github repo](https://github.com/john-hewitt/mmid-tools).
