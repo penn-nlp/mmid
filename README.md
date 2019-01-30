@@ -18,6 +18,7 @@ Through their generosity, we're able to provide all of MMID free of charge via a
 
 We currently have 75 out of 100 languages' data hosted.
 We're working on getting the final languages (as well as the English translations) ready for distribution.
+Also in preparation are the text dumps for (a subset of the) webpages of the images in the dataset.
 
 Check out the [downloads](https://multilingual-images.org/downloads.html) page for options on how to access the dataset. 
 
