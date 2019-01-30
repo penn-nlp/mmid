@@ -24,7 +24,9 @@ Check out the [downloads](https://multilingual-images.org/downloads.html) page f
 
 ## Citation
 
-If you use this dataset for your research, please cite:
+We gratefully acknowledge the support of an Amazon Research Award and AWS Research Credits, which enabled the construction of MMID.
+
+If you use MMID for your research, please cite:
 
 Learning Translations via Images with a Massively Multilingual Image Dataset. <br>
 John Hewitt\*, Daphne Ippolito\*, Brendan Callahan, Reno Kriz, Derry Tanti Wijaya and Chris Callison-Burch. <br>
