@@ -3,7 +3,7 @@
 MMID is a large-scale, massively multilingual dataset of images paired with the words they represent collected at the [University of Pennsylvania](https://upenn.edu).
 The dataset is doubly parallel: for each language, words are stored parallel to images that represent the word, _and_ parallel to the word's translation into English (and corresponding images.)
 
-By far the largest dataset of its kind, it has 100 languages (including English) and up to 10,000 words per language! (and many more for English.)
+By far the largest dataset of its kind, it has 98 languages (including English) and up to 10,000 words per language! (and many more for English.)
 
 ## Getting Started
 
@@ -15,10 +15,6 @@ If you have questions, please email the MMID users list. (mmid-users@googlegroup
 
 We're happy to announce that MMID is available via the Amazon Public Datasets program!
 Through their generosity, we're able to provide all of MMID free of charge via a public S3 bucket.
-
-We currently have 75 out of 100 languages' data hosted.
-We're working on getting the final languages (as well as the English translations) ready for distribution.
-Also in preparation are the text dumps for (a subset of the) webpages of the images in the dataset.
 
 Check out the [downloads](https://multilingual-images.org/downloads.html) page for options on how to access the dataset. 
 
