@@ -7,6 +7,8 @@ title: Downloads
 ## MMID packages
 Below are links for the full MMID image/word dataset for each language (100 images), a smaller view of MMID with only 1 image per word (1 image), the metadata of all images and the webpages they showed up on, and the dictionary containing just the words we have images for in each language, as well as their canonical MMID ID within the language. For more information, see our [documentation page](https://multilingual-images.org/doc.html).
 
+MMID was constructed by building translations for the bilingual dictionaries found [here](http://www.seas.upenn.edu/~nlp/resources/TACL-data-release/dictionaries.tar.gz), which were built as described in the paper [The Language Demographics of Amazon Mechanical Turk](https://cs.brown.edu/people/epavlick/papers/language_demographics_mturk.pdf).
+
 Through the generosity of the Amazon Public Datasets program, each download is available via a public S3 bucket!
 
 | language | 100 images | 1 image | metadata | dictionary | web text |
